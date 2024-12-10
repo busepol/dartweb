@@ -113,13 +113,13 @@ body{
 
 
 main {
-  padding: 5rem;
+  padding: 10rem;
   background-color: #000000;
 }
 
 .section {
   display: flex ;
-  margin-top: -190px;
+  margin-top: -185px;
   flex: 50;
   flex-direction: row;
   align-items: center;
@@ -133,7 +133,6 @@ main {
 
 .about-paragraph {
   margin-bottom: 20px;
-  margin-right: 40px;
   font-size: 1.8rem;
   line-height: 1;
   border-radius: 5px;
@@ -346,3 +345,4 @@ strong {
   }
 
 }
+  
