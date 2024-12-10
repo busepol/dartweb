@@ -332,7 +332,7 @@ strong {
   }
   
   .spacer {
-    margin: 8px;
+    margin: 6px;
 }
 
   .section img {
@@ -348,9 +348,8 @@ strong {
 
   .what-we-do {
     flex-direction: row;
-    font-size: 0.8rem;
     padding: 1rem 1rem;
-    background-size: cover;
+    background-size: contain;
     height: auto;
     margin-top: 1.5rem;
   }
@@ -358,25 +357,29 @@ strong {
   .what-we-do h1 {
     font-size: 1.5rem;
     margin: 0;
+    padding-left: 7rem;
     text-align: center;
   }
 
   .about-paragraph {
-    margin-bottom: 10px;
-    font-size: 0.9rem;
+    margin-bottom: 2px;
+    font-size: 0.7rem;
+    width: 200%;
     line-height: 1;
     text-align: left;
   }
 
   .what-we-do ul {
+    width: 300%;
     padding-left: 1.5rem;
-    margin-bottom: 1rem;
-    font-size: 0.9rem
+    margin-bottom: 0.7rem;
+    font-size: 0.7rem
   }
 
   .what-we-do li {
-    font-size: 0.9rem;
-    margin-bottom: 0.8rem;
+    width: ;
+    font-size: 0.7rem;
+    margin-bottom: 0.7rem;
   }
 
   .what-we-do .content {
@@ -414,5 +417,6 @@ strong {
     right: 0;
   }
 }
+
 
   
