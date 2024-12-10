@@ -323,15 +323,15 @@ strong {
   }
 
   .section p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: 1.4;
     max-width: 100%;
-    text-align: center;
+    text-align: left;
     margin-bottom: 1.5rem;
   }
 
   .section img {
-    max-width: 100%;
+    max-width: 50%;
     margin: 0 auto;
     padding: 8px;
   }
@@ -342,7 +342,7 @@ strong {
   }
 
   .what-we-do {
-    flex-direction: column;
+    flex-direction: row;
     gap: 1.5rem;
     padding: 1.5rem 1rem;
     background-size: cover;
@@ -359,11 +359,11 @@ strong {
   .what-we-do ul {
     padding-left: 1.5rem;
     margin-bottom: 1rem;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .what-we-do li {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin-bottom: 0.8rem;
   }
 
