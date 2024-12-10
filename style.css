@@ -329,9 +329,13 @@ strong {
     text-align: left;
     margin-bottom: 1.5rem;
   }
+  
+  .spacer {
+  margin: 15px;
+}
 
   .section img {
-    max-width: 10%;
+    max-width: 30%;
     margin: 0 auto;
     padding: 8px;
   }
@@ -343,6 +347,7 @@ strong {
 
   .what-we-do {
     flex-direction: row;
+    font-size: 0.9rem;
     gap: 1.5rem;
     padding: 1.5rem 1rem;
     background-size: cover;
