@@ -571,5 +571,47 @@ strong {
   .sidebar.open {
     right: 0;
   }
-}
+  @media (orientation: portrait) {
+    .navbar {
+      flex-direction: column; /* Stack items vertically */
+      padding: 1rem;
+    }
 
+    .section img {
+      max-width: 80%; /* Larger images for vertical layout */
+      margin: 1rem auto;
+    }
+
+    .what-we-do {
+      flex-direction: column;
+      padding: 2rem;
+    }
+
+    .icons {
+      gap: 1rem;
+    }
+  }
+
+  /* Landscape Orientation (Horizontal) */
+  @media (orientation: landscape) {
+    .navbar {
+      flex-direction: row; /* Arrange items horizontally */
+      padding: 0.5rem 2rem;
+    }
+
+    .section img {
+      max-width: 50%; /* Smaller images for horizontal layout */
+      margin: 0 auto;
+    }
+
+    .what-we-do {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 1.5rem 3rem;
+    }
+
+    .icons {
+      gap: 2rem;
+    }
+  }
+}
