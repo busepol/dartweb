@@ -418,7 +418,7 @@ strong {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait){
+@media (min-width: 769px) and (max-width: 1180px){
   body {
     font-size: 80%; /* Slightly smaller font size */
   }
@@ -576,4 +576,3 @@ strong {
     right: 0;
   }
 }
-
