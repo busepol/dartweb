@@ -324,7 +324,7 @@ strong {
   }
 
   .section p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     line-height: 1;
     max-width: 100%;
     text-align: left;
@@ -363,7 +363,7 @@ strong {
 
   .about-paragraph {
     margin-bottom: 2px;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     width: 200%;
     line-height: 1;
     text-align: left;
@@ -373,12 +373,11 @@ strong {
     width: 300%;
     padding-left: 1.5rem;
     margin-bottom: 0.7rem;
-    font-size: 0.7rem
+    font-size: 0.6rem
   }
 
   .what-we-do li {
-    width: ;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     margin-bottom: 0.7rem;
   }
 
@@ -388,7 +387,7 @@ strong {
 
   .icons {
     flex-direction: row;
-    gap: 0.8rem;
+    gap: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 1.5rem;
   }
