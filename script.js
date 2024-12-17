@@ -1,4 +1,24 @@
-// Example: Log a message when the page loads
+const animation_elements = document.querySelectorAll('.divisions');
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) =>{
+        if(entry.isIntersecting){
+            entry.target.classList.add('animate');
+        }
+        else{
+            entry.target.classList.remove('animate');
+        }
+    })
+}, {
+    threshold:0.2
+});
+
+for(let i = 0; i < animation_elements.length; i++){
+    const el = animation_elements[i];
+    observer.observe(el);
+}
+
+
 const menuButton = document.getElementById('menu-button');
 const sidebar = document.getElementById('sidebar');
 const body = document.body;

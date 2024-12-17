@@ -224,6 +224,31 @@ strong {
   margin-bottom: 20px;
 }
 
+.our-values {
+  margin-top: 6rem;
+  color: white;
+  padding: 80px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  height: auto;
+}
+.our-values h1 {  
+  font-size: 5.5rem;
+  color: #ffcc6d;
+  flex: 1;
+}
+.our-values p{
+  font-size: 1.5rem;
+  text-align: right;
+  margin: 0.5rem 0;
+  margin-bottom: 20px;
+}
+
+
+
 .icons{
   margin-top: 5rem;
   justify-content: center;
@@ -234,8 +259,6 @@ strong {
   gap:15rem;
   padding-bottom: 4rem;
 }
-
-
 
 .icons img{
   width: 2.3rem;
